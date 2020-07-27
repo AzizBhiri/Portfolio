@@ -348,6 +348,29 @@ path{
     color: rgb(29,30,44);
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29,30,44);
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+    margin: 40% 0 0 0;
+}
+
+.email_address{
+    font-family: 'Courier New';
+    color: white;
+    font-size: 30px;
+    margin-right: 20%;
+}
+
+.social_media{
+    color: white;
+    font-size: 50px;
+    margin: 10px 10% 0 0;
+}
+
 }
 
 
@@ -388,7 +411,7 @@ header::before {
     right: 0;
     bottom: 0;
     display: block;
-    background: url(file:///Users/mac/Desktop/Portfulio/images/webDev.jpg);
+    background: url(../images/webDev.jpg);
     filter: grayscale(70%);
     opacity: 0.85;
     background-size: cover;
